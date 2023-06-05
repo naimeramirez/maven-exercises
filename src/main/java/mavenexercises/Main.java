@@ -11,6 +11,8 @@ public class Main {
         System.out.println("Enter Something");
         String userInput = sc.next();
 
+        System.out.println("you entered: " + userInput);
+
         boolean isNumeric = StringUtils.isNumeric(userInput);
         System.out.println("Is Numeric: " + isNumeric);
 
